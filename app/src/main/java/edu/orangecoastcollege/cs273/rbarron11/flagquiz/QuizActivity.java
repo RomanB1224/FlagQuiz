@@ -11,6 +11,8 @@ import android.view.MenuItem;
 
 public class QuizActivity extends AppCompatActivity {
 
+    public static final String CHOICES = "prefer_numberOfChoices";
+    public static final String REGIONS = "pref_regionsToInclude";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
